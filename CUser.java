@@ -1,9 +1,4 @@
-import java.io.*;
-import java.net.*;
-import java.nio.*;
 import java.nio.channels.*;
-import java.nio.charset.*;
-import java.util.*;
 
 
 enum State {
@@ -60,6 +55,4 @@ public class CUser implements Comparable<CUser>{
 	  public int compareTo(CUser other){
 	    return this.nickname.compareTo(other.nickname);
 	  }
-
-
 }
